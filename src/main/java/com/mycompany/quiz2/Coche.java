@@ -10,22 +10,30 @@ package com.mycompany.quiz2;
  */
 public class Coche extends VehiculoBase {
 
+    TipoCombustibe combusCoche;
+
     public Coche(String marca, String modelo, int velocidad) {
         super(marca, modelo, velocidad);
+        this.combusCoche = TipoCombustibe.Electrico;
     }
-    
-    
-    
-    public void tipoCombustible(){
-    
-        
+
+    public TipoCombustibe tipoCombustible(TipoCombustibe combusCoche) {
+
+        return this.combusCoche;
     }
 
     @Override
     public void acelerar() {
+
     }
 
     @Override
     public void frenar() {
-     }
+
+    }
+
+    @Override
+    public void tipoCombustible() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }

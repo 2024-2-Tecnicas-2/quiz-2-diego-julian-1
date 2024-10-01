@@ -5,7 +5,10 @@
 package com.mycompany.quiz2;
 
   
-public interface Vehiculo {
+public interface IVehiculo {
+    
+    
+    
    void acelerar();
    void frenar();
    void tipoCombustible();

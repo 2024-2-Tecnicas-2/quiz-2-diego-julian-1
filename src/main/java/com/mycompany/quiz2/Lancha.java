@@ -4,15 +4,21 @@
  */
 package com.mycompany.quiz2;
 
-public class Lancha extends VehiculoBase {
+import java.util.logging.Level;
 
+public class Lancha extends VehiculoBase {
+    
+    TipoCombustibe combus ;
+    
     public Lancha(String marca, String modelo, int velocidad) {
         super(marca, modelo, velocidad);
+        this.combus= TipoCombustibe.Gasolina;
     }
     
-    public void tipoCombustible(){
     
-        
+    public TipoCombustibe tipoCombustible(TipoCombustibe combus){
+     
+    return this.combus;
     }
 
     @Override
@@ -24,4 +30,11 @@ public class Lancha extends VehiculoBase {
     public void frenar() {
         
     }
+
+    @Override
+    public void tipoCombustible() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    
 }
