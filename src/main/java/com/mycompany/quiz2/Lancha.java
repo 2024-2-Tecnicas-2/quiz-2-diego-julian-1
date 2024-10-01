@@ -20,7 +20,6 @@ public class Lancha extends VehiculoBase {
     }
     
     
-
     @Override
     public void acelerar() {
         

@@ -24,7 +24,10 @@ public class Principal {
         lancha2.frenar();
         
   
-        System.out.println("El coche: "+coche1.combusCoche);
-        
+     
+          System.out.println(coche1.toString()+"tiene combustible tipo "+coche1.combusCoche);
+          System.out.println(coche2.toString()+"tiene combustible tipo "+coche1.combusCoche);
+          System.out.println(lancha1.toString()+"tiene combustible tipo "+ lancha1.combus);
+          System.out.println(lancha2.toString()+"tiene combustible tipo "+lancha2.combus);
     }
 }

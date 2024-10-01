@@ -7,7 +7,7 @@ package com.mycompany.quiz2;
   
 public interface IVehiculo {
     
-   void acelerar();
-   void  frenar();
-   void tipoCombustible();
+   public void acelerar();
+   public void  frenar();
+   public void tipoCombustible();
 }
