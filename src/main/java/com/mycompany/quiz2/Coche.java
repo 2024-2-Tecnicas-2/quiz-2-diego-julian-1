@@ -14,13 +14,12 @@ public  class Coche extends VehiculoBase {
 
     public Coche(String marca, String modelo, int velocidad) {
         super(marca, modelo, velocidad);
-        this.combusCoche = TipoCombustible.Electrico;
+      
+        this.combusCoche = TipoCombustible.Gasolina;
+
     }
 
-    public TipoCombustible tipoCombustible(TipoCombustible combusCoche) {
-
-        return this.combusCoche;
-    }
+   
 
     @Override
     public void acelerar() {

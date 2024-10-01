@@ -12,13 +12,20 @@ public class Lancha extends VehiculoBase {
     
     public Lancha(String marca, String modelo, int velocidad) {
         super(marca, modelo, velocidad);
-        this.combus= TipoCombustible.Gasolina;
+
+      
+
+        this.combus= TipoCombustible.Diesel;
+
     }
     
     
 
     @Override
     public void acelerar() {
+        
+        
+        
         System.out.println(velocidad+=10);
     }
 

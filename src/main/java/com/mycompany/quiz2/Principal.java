@@ -11,20 +11,20 @@ public class Principal {
         Lancha lancha2 = new Lancha("Mercedes", "Kan", 80);
         
         //Acelerar:
+        
         coche1.acelerar();
         coche2.acelerar();
         lancha1.acelerar();
         lancha2.acelerar();
         
         //Frenar:
-        coche1.acelerar();
-        coche2.acelerar();
-        lancha1.acelerar();
-        lancha2.acelerar();
+        coche1.frenar();
+        coche2.frenar();
+        lancha1.frenar();
+        lancha2.frenar();
         
+  
+        System.out.println("El coche: "+coche1.combusCoche);
         
-        for (int i = 0; i < 10; i++) {
-            
-        }
     }
 }
