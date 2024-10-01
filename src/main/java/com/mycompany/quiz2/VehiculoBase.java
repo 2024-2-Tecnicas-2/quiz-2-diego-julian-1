@@ -32,15 +32,15 @@ public abstract class VehiculoBase implements IVehiculo {
     }
     
     
-    public void acelerar(){
-    
-    
+    public int acelerar(int velocidad){
+            
+    return velocidad+=10;
     }
     
     
-    public void frenar (){
+    public int frenar (int velocidad){
     
-    
+    return velocidad-=10;
     }
 }
 
