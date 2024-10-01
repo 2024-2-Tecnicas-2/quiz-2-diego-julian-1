@@ -32,9 +32,6 @@ public abstract class VehiculoBase implements IVehiculo {
     }
     
     
-<<<<<<< HEAD
-    
-=======
     public void acelerar(){
     
     
@@ -45,7 +42,6 @@ public abstract class VehiculoBase implements IVehiculo {
     
     
     }
->>>>>>> origin/master
 }
 
 
