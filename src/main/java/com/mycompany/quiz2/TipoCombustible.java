@@ -1,7 +1,6 @@
 package com.mycompany.quiz2;
 
-public enum TipoCombustibe {
-
+public enum TipoCombustible {
     Gasolina, Diesel, Electrico
 
 }

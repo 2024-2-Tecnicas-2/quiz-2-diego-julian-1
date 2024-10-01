@@ -8,33 +8,31 @@ import java.util.logging.Level;
 
 public class Lancha extends VehiculoBase {
     
-    TipoCombustibe combus ;
+    TipoCombustible combus ;
     
     public Lancha(String marca, String modelo, int velocidad) {
         super(marca, modelo, velocidad);
-        this.combus= TipoCombustibe.Gasolina;
+        this.combus= TipoCombustible.Gasolina;
     }
     
     
-    public TipoCombustibe tipoCombustible(TipoCombustibe combus){
-     
-    return this.combus;
-    }
 
     @Override
     public void acelerar() {
-        
-     }
+        System.out.println(velocidad+=10);
+    }
+
 
     @Override
     public void frenar() {
-        
+         System.out.println(velocidad-=10);
     }
 
     @Override
     public void tipoCombustible() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        System.out.println(this.combus);
     }
 
-    
+ 
+  
 }
