@@ -20,7 +20,7 @@ cualquier vehículo. Esta clase debe:
 
  * @author USUARIO
  */
-public abstract class VehiculoBase implements Vehiculo {
+public abstract class VehiculoBase implements IVehiculo {
      String marca;
     String modelo;
     int velocidad;
@@ -31,5 +31,18 @@ public abstract class VehiculoBase implements Vehiculo {
         this.velocidad = velocidad;
     }
     
+    
+    public void acelerar(){
+    
+    
+    }
+    
+    
+    public void frenar (){
+    
+    
+    }
 }
+
+
 
