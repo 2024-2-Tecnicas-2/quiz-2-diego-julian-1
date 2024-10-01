@@ -31,5 +31,7 @@ public abstract class VehiculoBase implements Vehiculo {
         this.velocidad = velocidad;
     }
     
+    
+    
 }
 
